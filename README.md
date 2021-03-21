@@ -9,6 +9,8 @@ Simple Toast with 4 Colors Indicator.
 Info, Warning, Error, and Success.
 Each Toast have different style background.
 Round Background, Square Background, and Block (this will pop up in top your Apps.)
+<br/>
+[![](https://img.shields.io/badge/Minimum_Android_SDK-Android_6.0_(API_level_23)-FFFFFF)](https://www.android.com/versions/oreo-8-0/)
 
 # Depencies
 - Add JitPack to build.gradle
@@ -29,55 +31,55 @@ dependencies {
 ```
 # Uses
 ### -Round Toast
-```
+```Java
 ColorToast.showRoundToastInfo(YourActivity.this, 
 "Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showRoundToastWarning(YourActivity.this, 
 "Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showRoundToastError(YourActivity.this, 
 "Hello World, I'm Round Toast Error"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showRoundToastSuccess(YourActivity.this, 
 "Hello World, I'm Round Toast Success"), Toast.LENGTH_SHORT);                             
 ```
 
 ### -Square Toast
-```
+```Java
 ColorToast.showSquareToastInfo(YourActivity.this, 
 "Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showSquareToastWarning(YourActivity.this, 
 "Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showSquareToastError(YourActivity.this, 
 "Hello World, I'm Square Toast Error"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showSquareToastSuccess(YourActivity.this, 
 "Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
 ```
 
 ### -Block Toast
-```
+```Java
 ColorToast.showBlockToastInfo(YourActivity.this, 
 "Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showBlockToastWarning(YourActivity.this, 
 "Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showBlockToastError(YourActivity.this, 
 "Hello World, I'm Block Toast Error"), Toast.LENGTH_SHORT);                             
 ```
-```
+```Java
 ColorToast.showBlockToastSuccess(YourActivity.this, 
 "Hello World, I'm Block Toast Success"), Toast.LENGTH_SHORT);                             
 ```
