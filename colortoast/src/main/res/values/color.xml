@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_lightGray">#F5F6FA</color>
+    <color name="color_light50White">#EEEEEE</color>
+
+    <color name="color_toast_default">#EF8D32</color>
+    <color name="color_toast_info">#0E49B5</color>
+    <color name="color_toast_warning">#F7B71D</color>
+    <color name="color_toast_error">#FA1E0E</color>
+    <color name="color_toast_success">#21BF73</color>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp">
+
+                <Button
+                    android:id="@+id/btn_round_toast_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Round Toast Info" />
+
+                <Button
+                    android:id="@+id/btn_round_toast_warning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Round Toast Warning" />
+
+                <Button
+                    android:id="@+id/btn_round_toast_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Round Toast Error" />
+
+                <Button
+                    android:id="@+id/btn_round_toast_success"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Round Toast Success" />
+
+                <Button
+                    android:id="@+id/btn_square_toast_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Square Toast Info" />
+
+                <Button
+                    android:id="@+id/btn_square_toast_warning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Square Toast Warning" />
+
+                <Button
+                    android:id="@+id/btn_square_toast_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Square Toast Error" />
+
+                <Button
+                    android:id="@+id/btn_square_toast_success"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Square Toast Success" />
+
+                <Button
+                    android:id="@+id/btn_block_toast_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Block Toast Info" />
+
+                <Button
+                    android:id="@+id/btn_block_toast_warning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Block Toast Warning" />
+
+                <Button
+                    android:id="@+id/btn_block_toast_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Block Toast Error" />
+
+                <Button
+                    android:id="@+id/btn_block_toast_success"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Block Toast Success" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

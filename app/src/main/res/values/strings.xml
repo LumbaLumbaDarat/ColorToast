@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false" >Color Toast</string>
+
+    <string name="hello_world" translatable="false">Hello World, %s</string>
+</resources>
