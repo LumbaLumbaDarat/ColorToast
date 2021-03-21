@@ -13,19 +13,19 @@ Round Background, Square Background, and Block (this will pop up in top your App
 # Depencies
 - Add JitPack to build.gradle
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 - Add implementation to build.gradle app
 ```
-	dependencies {
-	        implementation 'com.github.LumbaLumbaDarat:ColorToast:1.0.0' 
-	}
+dependencies {
+	implementation 'com.github.LumbaLumbaDarat:ColorToast:1.0.0' 
+}
 ```
 # Uses
 ### -Round Toast
