@@ -44,48 +44,43 @@ ColorToast.showBlockToastInfo(YourActivity.this,
 "Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);                             
 ```
 
-### ![](https://img.shields.io/badge/Round_Toast-Warning-F7B71D)
+### ![](https://img.shields.io/badge/Round_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Square_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Block_Toast-Warning-F7B71D)
 ```Java
 ColorToast.showRoundToastWarning(YourActivity.this, 
 "Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);                             
 ```
-
-### ![](https://img.shields.io/badge/Round_Toast-Error-FA1E0E)
-```Java
-ColorToast.showRoundToastError(YourActivity.this, 
-"Hello World, I'm Round Toast Error"), Toast.LENGTH_SHORT);                             
-```
-
-### ![](https://img.shields.io/badge/Round_Toast-Success-21BF73)
-```Java
-ColorToast.showRoundToastSuccess(YourActivity.this, 
-"Hello World, I'm Round Toast Success"), Toast.LENGTH_SHORT);                             
-```
-
-### <br> Square Toast
-
 ```Java
 ColorToast.showSquareToastWarning(YourActivity.this, 
 "Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);                             
+```
+```Java
+ColorToast.showBlockToastWarning(YourActivity.this, 
+"Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);                             
+```
+
+
+### ![](https://img.shields.io/badge/Round_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Square_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Block_Toast-Error-FA1E0E)
+```Java
+ColorToast.showRoundToastError(YourActivity.this, 
+"Hello World, I'm Round Toast Error"), Toast.LENGTH_SHORT);                             
 ```
 ```Java
 ColorToast.showSquareToastError(YourActivity.this, 
 "Hello World, I'm Square Toast Error"), Toast.LENGTH_SHORT);                             
 ```
 ```Java
-ColorToast.showSquareToastSuccess(YourActivity.this, 
-"Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
-```
-
-### - Block Toast
-
-```Java
-ColorToast.showBlockToastWarning(YourActivity.this, 
-"Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);                             
-```
-```Java
 ColorToast.showBlockToastError(YourActivity.this, 
 "Hello World, I'm Block Toast Error"), Toast.LENGTH_SHORT);                             
+```
+
+### ![](https://img.shields.io/badge/Round_Toast-Success-21BF73) ![](https://img.shields.io/badge/Square_Toast-Success-21BF73) ![](https://img.shields.io/badge/Block_Toast-Success-21BF73)
+```Java
+ColorToast.showRoundToastSuccess(YourActivity.this, 
+"Hello World, I'm Round Toast Success"), Toast.LENGTH_SHORT);                             
+```
+```Java
+ColorToast.showSquareToastSuccess(YourActivity.this, 
+"Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
 ```
 ```Java
 ColorToast.showBlockToastSuccess(YourActivity.this, 
