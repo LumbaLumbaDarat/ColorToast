@@ -14,7 +14,7 @@ Round Background, Square Background, and Block (this will pop up in top your App
 
 # Depencies
 - Add JitPack to build.gradle
-```
+```Gradle
 allprojects {
 	repositories {
 		...
@@ -24,7 +24,7 @@ allprojects {
 ```
 
 - Add implementation to build.gradle app
-```
+```Gradle
 dependencies {
 	implementation 'com.github.LumbaLumbaDarat:ColorToast:1.0.0' 
 }
