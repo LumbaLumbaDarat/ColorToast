@@ -1074,7 +1074,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showRoundToastInfo(Activity activity, String message, int length) {
@@ -1094,7 +1094,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showSquareToastInfo(Activity activity, String message, int length) {
@@ -1114,7 +1114,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showBlockToastInfo(Activity activity, String message, int length) {
@@ -1142,7 +1142,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showRoundToastWarning(Activity activity, String message, int length) {
@@ -1162,7 +1162,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showSquareToastWarning(Activity activity, String message, int length) {
@@ -1182,7 +1182,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showBlockToastWarning(Activity activity, String message, int length) {
@@ -1210,7 +1210,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showRoundToastError(Activity activity, String message, int length) {
@@ -1230,7 +1230,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showSquareToastError(Activity activity, String message, int length) {
@@ -1250,7 +1250,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showBlockToastError(Activity activity, String message, int length) {
@@ -1278,7 +1278,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showRoundToastSuccess(Activity activity, String message, int length) {
@@ -1298,7 +1298,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showSquareToastSuccess(Activity activity, String message, int length) {
@@ -1318,7 +1318,7 @@ public class ColorToast {
      *
      * @param activity Your Activity Context
      * @param message The Message You will Display
-     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or TOAST.LENGTH_LONG
+     * @param length length duration of Toast, can use Toast.LENGTH_SHORT or Toast.LENGTH_LONG
      */
     @Deprecated
     public static void showBlockToastSuccess(Activity activity, String message, int length) {
