@@ -32,8 +32,13 @@ dependencies {
 # Uses
 ### ![](https://img.shields.io/badge/Round_Toast-Info-0E49B5) ![](https://img.shields.io/badge/Square_Toast-Info-0E49B5) ![](https://img.shields.io/badge/Block_Toast-Info-0E49B5)
 ```Java
+//Toast with default Title
 ColorToast.roundInfo(YourActivity.this, 
-"Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);
+"Hello World, I'm Toast Info"), Toast.LENGTH_SHORT);
+
+//Toast with Your Title
+ColorToast.roundInfo(YourActivity.this, 
+"Put Your Title in here", "Hello World, I'm Toast Info"), Toast.LENGTH_SHORT);
 
 //Other method, with same parameter, and have different Model Toast
 ColorToast.roundColorInfo
@@ -48,8 +53,13 @@ ColorToast.blockLineInfo
 
 ### ![](https://img.shields.io/badge/Round_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Square_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Block_Toast-Warning-F7B71D)
 ```Java
+//Toast with default Title
 ColorToast.roundWarning(YourActivity.this, 
-"Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);  
+"Hello World, I'm Toast Warning"), Toast.LENGTH_SHORT);  
+
+//Toast with Your Title
+ColorToast.roundWarning(YourActivity.this, 
+"Put Your Title in here", "Hello World, I'm Toast Warning"), Toast.LENGTH_SHORT);
 
 //Other method, with same parameter, and have different Model Toast
 ColorToast.roundColorWarning
@@ -60,34 +70,46 @@ ColorToast.squareLineWarning
 ColorToast.blockWarning
 ColorToast.blockColorWarning
 ColorToast.blockLineWarning 
-   
 ```
 ### ![](https://img.shields.io/badge/Round_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Square_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Block_Toast-Error-FA1E0E)
 ```Java
-ColorToast.showRoundToastError(YourActivity.this, 
-"Hello World, I'm Round Toast Error"), Toast.LENGTH_SHORT);                             
-```
-```Java
-ColorToast.showSquareToastError(YourActivity.this, 
-"Hello World, I'm Square Toast Error"), Toast.LENGTH_SHORT);                             
-```
-```Java
-ColorToast.showBlockToastError(YourActivity.this, 
-"Hello World, I'm Block Toast Error"), Toast.LENGTH_SHORT);                             
-```
+//Toast with default Title
+ColorToast.roundError(YourActivity.this, 
+"Hello World, I'm Toast Error"), Toast.LENGTH_SHORT);  
 
+//Toast with Your Title
+ColorToast.roundError(YourActivity.this, 
+"Put Your Title in here", "Hello World, I'm Toast Error"), Toast.LENGTH_SHORT);
+
+//Other method, with same parameter, and have different Model Toast
+ColorToast.roundColorError
+ColorToast.roundLineError
+ColorToast.squareError
+ColorToast.squareColorError
+ColorToast.squareLineError
+ColorToast.blockError
+ColorToast.blockColorError
+ColorToast.blockLineError 
+```
 ### ![](https://img.shields.io/badge/Round_Toast-Success-21BF73) ![](https://img.shields.io/badge/Square_Toast-Success-21BF73) ![](https://img.shields.io/badge/Block_Toast-Success-21BF73)
 ```Java
-ColorToast.showRoundToastSuccess(YourActivity.this, 
-"Hello World, I'm Round Toast Success"), Toast.LENGTH_SHORT);                             
-```
-```Java
-ColorToast.showSquareToastSuccess(YourActivity.this, 
-"Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
-```
-```Java
-ColorToast.showBlockToastSuccess(YourActivity.this, 
-"Hello World, I'm Block Toast Success"), Toast.LENGTH_SHORT);                             
+//Toast with default Title
+ColorToast.roundSuccess(YourActivity.this, 
+"Hello World, I'm Toast Success"), Toast.LENGTH_SHORT);  
+
+//Toast with Your Title
+ColorToast.roundSuccess(YourActivity.this, 
+"Put Your Title in here", "Hello World, I'm Toast Success"), Toast.LENGTH_SHORT);
+
+//Other method, with same parameter, and have different Model Toast
+ColorToast.roundColorSuccess
+ColorToast.roundLineSuccess
+ColorToast.squareSuccess
+ColorToast.squareColorSuccess
+ColorToast.squareLineSuccess
+ColorToast.blockSuccess
+ColorToast.blockColorSuccess
+ColorToast.blockLineSuccess 
 ```
 
 ## Licence
