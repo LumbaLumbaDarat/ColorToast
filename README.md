@@ -43,7 +43,7 @@ ColorToast.roundColorInfo(YourActivity.this,
 "Hello World, I'm Round Color Toast Info"), Toast.LENGTH_SHORT);  
 
 ColorToast.roundColorInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round  Color Toast Info"), Toast.LENGTH_SHORT);  
+"Toast Title", "Hello World, I'm Round Color Toast Info"), Toast.LENGTH_SHORT);  
 
 
 ColorToast.roundLineInfo(YourActivity.this, 
@@ -53,8 +53,25 @@ ColorToast.roundLineInfo(YourActivity.this,
 "Toast Title", "Hello World, I'm Round Line Color Toast Info"), Toast.LENGTH_SHORT);   
 ```
 ```Java
-ColorToast.roundColorInfo(YourActivity.this, 
-"Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
+ColorToast.squareInfo(YourActivity.this, 
+"Hello World, I'm Square Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.squareInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Square Toast Info"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.squareColorInfo(YourActivity.this, 
+"Hello World, I'm Square Color Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.squareColorInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Square Color Toast Info"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.squareLineInfo(YourActivity.this, 
+"Hello World, I'm Square Line Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.squareLineInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Square Line Color Toast Info"), Toast.LENGTH_SHORT);                              
 ```
 ```Java
 ColorToast.showBlockToastInfo(YourActivity.this, 
