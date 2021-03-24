@@ -32,11 +32,28 @@ dependencies {
 # Uses
 ### ![](https://img.shields.io/badge/Round_Toast-Info-0E49B5) ![](https://img.shields.io/badge/Square_Toast-Info-0E49B5) ![](https://img.shields.io/badge/Block_Toast-Info-0E49B5)
 ```Java
-ColorToast.showRoundToastInfo(YourActivity.this, 
-"Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);                             
+ColorToast.roundInfo(YourActivity.this, 
+"Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.roundInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.roundColorInfo(YourActivity.this, 
+"Hello World, I'm Round Color Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.roundColorInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Round  Color Toast Info"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.roundLineInfo(YourActivity.this, 
+"Hello World, I'm Round Line Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.roundLineInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Round Line Color Toast Info"), Toast.LENGTH_SHORT);   
 ```
 ```Java
-ColorToast.showSquareToastInfo(YourActivity.this, 
+ColorToast.roundColorInfo(YourActivity.this, 
 "Hello World, I'm Square Toast Success"), Toast.LENGTH_SHORT);                             
 ```
 ```Java
