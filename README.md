@@ -33,66 +33,17 @@ dependencies {
 ### ![](https://img.shields.io/badge/Round_Toast-Info-0E49B5) ![](https://img.shields.io/badge/Square_Toast-Info-0E49B5) ![](https://img.shields.io/badge/Block_Toast-Info-0E49B5)
 ```Java
 ColorToast.roundInfo(YourActivity.this, 
-"Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);  
+"Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);
 
-ColorToast.roundInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round Toast Info"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.roundColorInfo(YourActivity.this, 
-"Hello World, I'm Round Color Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.roundColorInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round Color Toast Info"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.roundLineInfo(YourActivity.this, 
-"Hello World, I'm Round Line Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.roundLineInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round Line Color Toast Info"), Toast.LENGTH_SHORT);   
-```
-```Java
-ColorToast.squareInfo(YourActivity.this, 
-"Hello World, I'm Square Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.squareInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Square Toast Info"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.squareColorInfo(YourActivity.this, 
-"Hello World, I'm Square Color Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.squareColorInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Square Color Toast Info"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.squareLineInfo(YourActivity.this, 
-"Hello World, I'm Square Line Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.squareLineInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Square Line Color Toast Info"), Toast.LENGTH_SHORT);                              
-```
-```Java
-ColorToast.blockInfo(YourActivity.this, 
-"Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.blockInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.blockColorInfo(YourActivity.this, 
-"Hello World, I'm Block Color Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.blockColorInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Block Color Toast Info"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.blockLineInfo(YourActivity.this, 
-"Hello World, I'm Block Line Toast Info"), Toast.LENGTH_SHORT);  
-
-ColorToast.blockLineInfo(YourActivity.this, 
-"Toast Title", "Hello World, I'm Block Line Color Toast Info"), Toast.LENGTH_SHORT);                              
+//Other method, with same parameter, and have different Model Toast
+ColorToast.roundColorInfo
+ColorToast.roundLineInfo
+ColorToast.squareInfo
+ColorToast.squareColorInfo
+ColorToast.squareLineInfo
+ColorToast.blockInfo
+ColorToast.blockColorInfo
+ColorToast.blockLineInfo 
 ```
 
 ### ![](https://img.shields.io/badge/Round_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Square_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Block_Toast-Warning-F7B71D)
@@ -100,66 +51,17 @@ ColorToast.blockLineInfo(YourActivity.this,
 ColorToast.roundWarning(YourActivity.this, 
 "Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);  
 
-ColorToast.roundWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.roundColorWarning(YourActivity.this, 
-"Hello World, I'm Round Color Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.roundColorWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round Color Toast Warning"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.roundLineWarning(YourActivity.this, 
-"Hello World, I'm Round Line Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.roundLineWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Round Line Color Toast Warning"), Toast.LENGTH_SHORT);   
+//Other method, with same parameter, and have different Model Toast
+ColorToast.roundColorWarning
+ColorToast.roundLineWarning
+ColorToast.squareWarning
+ColorToast.squareColorWarning
+ColorToast.squareLineWarning
+ColorToast.blockWarning
+ColorToast.blockColorWarning
+ColorToast.blockLineWarning 
+   
 ```
-```Java
-ColorToast.squareWarning(YourActivity.this, 
-"Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.squareWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.squareColorWarning(YourActivity.this, 
-"Hello World, I'm Square Color Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.squareColorWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Square Color Toast Warning"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.squareLineWarning(YourActivity.this, 
-"Hello World, I'm Square Line Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.squareLineWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Square Line Color Toast Warning"), Toast.LENGTH_SHORT);  
-```
-```Java
-ColorToast.blockWarning(YourActivity.this, 
-"Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.blockWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.blockColorWarning(YourActivity.this, 
-"Hello World, I'm Block Color Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.blockColorWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Block Color Toast Warning"), Toast.LENGTH_SHORT);  
-
-
-ColorToast.blockLineWarning(YourActivity.this, 
-"Hello World, I'm Block Line Toast Warning"), Toast.LENGTH_SHORT);  
-
-ColorToast.blockLineWarning(YourActivity.this, 
-"Toast Title", "Hello World, I'm Block Line Color Toast Warning"), Toast.LENGTH_SHORT);  
-```
-
 ### ![](https://img.shields.io/badge/Round_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Square_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Block_Toast-Error-FA1E0E)
 ```Java
 ColorToast.showRoundToastError(YourActivity.this, 
