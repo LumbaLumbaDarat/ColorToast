@@ -10,95 +10,49 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
             android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="10dp">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/btn_round_toast_info"
+                    android:id="@+id/btn_toast_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Round Toast Info" />
+                    android:text="Toast Info" />
 
                 <Button
-                    android:id="@+id/btn_round_toast_warning"
+                    android:id="@+id/btn_toast_warning"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Round Toast Warning" />
+                    android:text="Toast Warning" />
 
                 <Button
-                    android:id="@+id/btn_round_toast_error"
+                    android:id="@+id/btn_toast_error"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Round Toast Error" />
+                    android:text="Toast Error" />
 
                 <Button
-                    android:id="@+id/btn_round_toast_success"
+                    android:id="@+id/btn_toast_success"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Round Toast Success" />
-
-                <Button
-                    android:id="@+id/btn_square_toast_info"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Square Toast Info" />
-
-                <Button
-                    android:id="@+id/btn_square_toast_warning"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Square Toast Warning" />
-
-                <Button
-                    android:id="@+id/btn_square_toast_error"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Square Toast Error" />
-
-                <Button
-                    android:id="@+id/btn_square_toast_success"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Square Toast Success" />
-
-                <Button
-                    android:id="@+id/btn_block_toast_info"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Block Toast Info" />
-
-                <Button
-                    android:id="@+id/btn_block_toast_warning"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Block Toast Warning" />
-
-                <Button
-                    android:id="@+id/btn_block_toast_error"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Block Toast Error" />
-
-                <Button
-                    android:id="@+id/btn_block_toast_success"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Block Toast Success" />
-
+                    android:text="Toast Success" />
             </LinearLayout>
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

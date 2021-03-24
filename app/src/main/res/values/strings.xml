@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name" translatable="false" >Color Toast</string>
 
-    <string name="hello_world" translatable="false">Hello World, %s</string>
+    <string name="title_info">Information</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_error">Error</string>
+    <string name="title_success">Success</string>
+    <string name="title_default">Color Toast</string>
+
+    <string name="hello_world" translatable="false">Hello World, Im Toast %s</string>
+    <string name="hello_world_message" translatable="false">Hello World, Im %s</string>
 </resources>

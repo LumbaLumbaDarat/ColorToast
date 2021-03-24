@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ColorToast">
+        <activity android:name=".toast.ToastSuccessActivity"/>
+        <activity android:name=".toast.ToastErrorActivity" />
+        <activity android:name=".toast.ToastWarningActivity" />
+        <activity android:name=".toast.ToastInfoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
