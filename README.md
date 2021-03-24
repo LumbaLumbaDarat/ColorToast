@@ -74,8 +74,25 @@ ColorToast.squareLineInfo(YourActivity.this,
 "Toast Title", "Hello World, I'm Square Line Color Toast Info"), Toast.LENGTH_SHORT);                              
 ```
 ```Java
-ColorToast.showBlockToastInfo(YourActivity.this, 
-"Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);                             
+ColorToast.blockInfo(YourActivity.this, 
+"Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.blockInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Block Toast Info"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.blockColorInfo(YourActivity.this, 
+"Hello World, I'm Block Color Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.blockColorInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Block Color Toast Info"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.blockLineInfo(YourActivity.this, 
+"Hello World, I'm Block Line Toast Info"), Toast.LENGTH_SHORT);  
+
+ColorToast.blockLineInfo(YourActivity.this, 
+"Toast Title", "Hello World, I'm Block Line Color Toast Info"), Toast.LENGTH_SHORT);                              
 ```
 
 ### ![](https://img.shields.io/badge/Round_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Square_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Block_Toast-Warning-F7B71D)
