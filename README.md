@@ -97,18 +97,68 @@ ColorToast.blockLineInfo(YourActivity.this,
 
 ### ![](https://img.shields.io/badge/Round_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Square_Toast-Warning-F7B71D) ![](https://img.shields.io/badge/Block_Toast-Warning-F7B71D)
 ```Java
-ColorToast.showRoundToastWarning(YourActivity.this, 
-"Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);                             
-```
-```Java
-ColorToast.showSquareToastWarning(YourActivity.this, 
-"Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);                             
-```
-```Java
-ColorToast.showBlockToastWarning(YourActivity.this, 
-"Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);                             
-```
+ColorToast.roundWarning(YourActivity.this, 
+"Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);  
 
+ColorToast.roundWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Round Toast Warning"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.roundColorWarning(YourActivity.this, 
+"Hello World, I'm Round Color Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.roundColorWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Round Color Toast Warning"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.roundLineWarning(YourActivity.this, 
+"Hello World, I'm Round Line Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.roundLineWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Round Line Color Toast Warning"), Toast.LENGTH_SHORT);   
+```
+```Java
+ColorToast.squareWarning(YourActivity.this, 
+"Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.squareWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Square Toast Warning"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.squareColorWarning(YourActivity.this, 
+"Hello World, I'm Square Color Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.squareColorWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Square Color Toast Warning"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.squareLineWarning(YourActivity.this, 
+"Hello World, I'm Square Line Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.squareLineWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Square Line Color Toast Warning"), Toast.LENGTH_SHORT);  
+```
+```Java
+ColorToast.blockWarning(YourActivity.this, 
+"Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.blockWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Block Toast Warning"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.blockColorWarning(YourActivity.this, 
+"Hello World, I'm Block Color Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.blockColorWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Block Color Toast Warning"), Toast.LENGTH_SHORT);  
+
+
+ColorToast.blockLineWarning(YourActivity.this, 
+"Hello World, I'm Block Line Toast Warning"), Toast.LENGTH_SHORT);  
+
+ColorToast.blockLineWarning(YourActivity.this, 
+"Toast Title", "Hello World, I'm Block Line Color Toast Warning"), Toast.LENGTH_SHORT);  
+```
 
 ### ![](https://img.shields.io/badge/Round_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Square_Toast-Error-FA1E0E) ![](https://img.shields.io/badge/Block_Toast-Error-FA1E0E)
 ```Java
