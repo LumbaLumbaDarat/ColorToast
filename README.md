@@ -26,7 +26,7 @@ allprojects {
 - Add implementation to build.gradle app
 ```Gradle
 dependencies {
-	implementation 'com.github.LumbaLumbaDarat:ColorToast:1.1.0' 
+	implementation 'com.github.LumbaLumbaDarat:ColorToast:1.1.1'
 }
 ```
 # Uses
