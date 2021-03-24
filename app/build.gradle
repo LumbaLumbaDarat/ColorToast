@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.lumbalumbadrt.colortoast"
+        applicationId "com.lumbalumbadrt.colortoast.app"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -27,8 +27,8 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    viewBinding {
-        enabled = true
+    buildFeatures {
+        viewBinding = true
     }
 }
 

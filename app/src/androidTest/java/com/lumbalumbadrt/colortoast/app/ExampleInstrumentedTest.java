@@ -1,4 +1,4 @@
-package com.lumbalumbadrt.colortoast;
+package com.lumbalumbadrt.colortoast.app;
 
 import android.content.Context;
 

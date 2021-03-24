@@ -1,4 +1,4 @@
-package com.lumbalumbadrt.colortoast.toast;
+package com.lumbalumbadrt.colortoast.app.toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,89 +8,87 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.lumbalumbadrt.colortoast.ColorToast;
-import com.lumbalumbadrt.colortoast.R;
-import com.lumbalumbadrt.colortoast.databinding.ActivityToastInfoBinding;
+import com.lumbalumbadrt.colortoast.app.R;
+import com.lumbalumbadrt.colortoast.app.databinding.ActivityToastSuccessBinding;
 
 @SuppressLint("NonConstantResourceId")
-public class ToastInfoActivity extends AppCompatActivity {
+public class ToastSuccessActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ActivityToastInfoBinding binding = ActivityToastInfoBinding.
+        ActivityToastSuccessBinding binding = ActivityToastSuccessBinding.
                 inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.btnRoundInfo.setOnClickListener(onClickListenerRound);
-        binding.btnRoundColorInfo.setOnClickListener(onClickListenerRound);
-        binding.btnRoundLineInfo.setOnClickListener(onClickListenerRound);
+        binding.btnRoundSuccess.setOnClickListener(onClickListenerRound);
+        binding.btnRoundColorSuccess.setOnClickListener(onClickListenerRound);
+        binding.btnRoundLineSuccess.setOnClickListener(onClickListenerRound);
 
-        binding.btnRoundTitleInfo.setOnClickListener(onClickListenerRoundTitle);
-        binding.btnRoundColorTitleInfo.setOnClickListener(onClickListenerRoundTitle);
-        binding.btnRoundLineTitleInfo.setOnClickListener(onClickListenerRoundTitle);
+        binding.btnRoundTitleSuccess.setOnClickListener(onClickListenerRoundTitle);
+        binding.btnRoundColorTitleSuccess.setOnClickListener(onClickListenerRoundTitle);
+        binding.btnRoundLineTitleSuccess.setOnClickListener(onClickListenerRoundTitle);
 
-        binding.btnSquareInfo.setOnClickListener(onClickListenerSquare);
-        binding.btnSquareColorInfo.setOnClickListener(onClickListenerSquare);
-        binding.btnSquareLineInfo.setOnClickListener(onClickListenerSquare);
+        binding.btnSquareSuccess.setOnClickListener(onClickListenerSquare);
+        binding.btnSquareColorSuccess.setOnClickListener(onClickListenerSquare);
+        binding.btnSquareLineSuccess.setOnClickListener(onClickListenerSquare);
 
-        binding.btnSquareTitleInfo.setOnClickListener(onClickListenerSquareTitle);
-        binding.btnSquareColorTitleInfo.setOnClickListener(onClickListenerSquareTitle);
-        binding.btnSquareLineTitleInfo.setOnClickListener(onClickListenerSquareTitle);
+        binding.btnSquareTitleSuccess.setOnClickListener(onClickListenerSquareTitle);
+        binding.btnSquareColorTitleSuccess.setOnClickListener(onClickListenerSquareTitle);
+        binding.btnSquareLineTitleSuccess.setOnClickListener(onClickListenerSquareTitle);
 
-        binding.btnBlockInfo.setOnClickListener(onClickListenerBlock);
-        binding.btnBlockColorInfo.setOnClickListener(onClickListenerBlock);
-        binding.btnBlockLineInfo.setOnClickListener(onClickListenerBlock);
+        binding.btnBlockSuccess.setOnClickListener(onClickListenerBlock);
+        binding.btnBlockColorSuccess.setOnClickListener(onClickListenerBlock);
+        binding.btnBlockLineSuccess.setOnClickListener(onClickListenerBlock);
 
-        binding.btnBlockTitleInfo.setOnClickListener(onClickListenerBlockTitle);
-        binding.btnBlockColorTitleInfo.setOnClickListener(onClickListenerBlockTitle);
-        binding.btnBlockLineTitleInfo.setOnClickListener(onClickListenerBlockTitle);
+        binding.btnBlockTitleSuccess.setOnClickListener(onClickListenerBlockTitle);
+        binding.btnBlockColorTitleSuccess.setOnClickListener(onClickListenerBlockTitle);
+        binding.btnBlockLineTitleSuccess.setOnClickListener(onClickListenerBlockTitle);
     }
 
-    private final View.OnClickListener onClickListenerRound = view ->
-    {
+    private final View.OnClickListener onClickListenerRound = view -> {
         switch (view.getId()) {
-            case R.id.btn_round_info:
-                ColorToast.roundInfo(this,
+            case R.id.btn_round_success:
+                ColorToast.roundSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Round Info"),
+                                "Round Success"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_round_color_info:
-                ColorToast.roundColorInfo(this,
+            case R.id.btn_round_color_success:
+                ColorToast.roundColorSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Round Color Info"),
+                                "Round Color Success"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_round_line_info:
-                ColorToast.roundLineInfo(this,
+            case R.id.btn_round_line_success:
+                ColorToast.roundLineSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Round Line Info"),
+                                "Round Line Success"),
                         Toast.LENGTH_SHORT);
                 break;
         }
     };
 
-    private final View.OnClickListener onClickListenerRoundTitle = view ->
-    {
+    private final View.OnClickListener onClickListenerRoundTitle = view -> {
         switch (view.getId()) {
-            case R.id.btn_round_title_info:
-                ColorToast.roundInfo(this,
+            case R.id.btn_round_title_success:
+                ColorToast.roundSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
                                 "Message"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_round_color_title_info:
-                ColorToast.roundColorInfo(this,
+            case R.id.btn_round_color_title_success:
+                ColorToast.roundColorSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
                                 "Message"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_round_line_title_info:
-                ColorToast.roundLineInfo(this,
+            case R.id.btn_round_line_title_success:
+                ColorToast.roundLineSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
@@ -100,25 +98,24 @@ public class ToastInfoActivity extends AppCompatActivity {
         }
     };
 
-    private final View.OnClickListener onClickListenerSquare = view ->
-    {
+    private final View.OnClickListener onClickListenerSquare = view -> {
         switch (view.getId()) {
-            case R.id.btn_square_info:
-                ColorToast.squareInfo(this,
+            case R.id.btn_square_success:
+                ColorToast.squareSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Square Info"),
+                                "Square Success"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_square_color_info:
-                ColorToast.squareColorInfo(this,
+            case R.id.btn_square_color_success:
+                ColorToast.squareColorSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Square Color Info"),
+                                "Square Color Success"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_square_line_info:
-                ColorToast.squareLineInfo(this,
+            case R.id.btn_square_line_success:
+                ColorToast.squareLineSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Square Line Info"),
+                                "Square Line Success"),
                         Toast.LENGTH_SHORT);
                 break;
         }
@@ -126,24 +123,24 @@ public class ToastInfoActivity extends AppCompatActivity {
 
     private final View.OnClickListener onClickListenerSquareTitle = view -> {
         switch (view.getId()) {
-            case R.id.btn_square_title_info:
-                ColorToast.squareInfo(this,
+            case R.id.btn_square_title_success:
+                ColorToast.squareSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
                                 "Message"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_square_color_title_info:
-                ColorToast.squareColorInfo(this,
+            case R.id.btn_square_color_title_success:
+                ColorToast.squareColorSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
                                 "Message"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_square_line_title_info:
-                ColorToast.squareLineInfo(this,
+            case R.id.btn_square_line_title_success:
+                ColorToast.squareLineSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
@@ -153,25 +150,24 @@ public class ToastInfoActivity extends AppCompatActivity {
         }
     };
 
-    private final View.OnClickListener onClickListenerBlock = view ->
-    {
+    private final View.OnClickListener onClickListenerBlock = view -> {
         switch (view.getId()) {
-            case R.id.btn_block_info:
-                ColorToast.blockInfo(this,
+            case R.id.btn_block_success:
+                ColorToast.blockSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Block Info"),
+                                "Block Success"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_block_color_info:
-                ColorToast.blockColorInfo(this,
+            case R.id.btn_block_color_success:
+                ColorToast.blockColorSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Block Color Info"),
+                                "Block Color Success"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_block_line_info:
-                ColorToast.blockLineInfo(this,
+            case R.id.btn_block_line_success:
+                ColorToast.blockLineSuccess(this,
                         getResources().getString(R.string.hello_world,
-                                "Block Line Info"),
+                                "Block Line Success"),
                         Toast.LENGTH_SHORT);
                 break;
         }
@@ -179,24 +175,24 @@ public class ToastInfoActivity extends AppCompatActivity {
 
     private final View.OnClickListener onClickListenerBlockTitle = view -> {
         switch (view.getId()) {
-            case R.id.btn_block_title_info:
-                ColorToast.blockInfo(this,
+            case R.id.btn_block_title_success:
+                ColorToast.blockSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
                                 "Message"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_block_color_title_info:
-                ColorToast.blockColorInfo(this,
+            case R.id.btn_block_color_title_success:
+                ColorToast.blockColorSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,
                                 "Message"),
                         Toast.LENGTH_SHORT);
                 break;
-            case R.id.btn_block_line_title_info:
-                ColorToast.blockLineInfo(this,
+            case R.id.btn_block_line_title_success:
+                ColorToast.blockLineSuccess(this,
                         getResources().getString(R.string.hello_world_message,
                                 "Title"),
                         getResources().getString(R.string.hello_world_message,

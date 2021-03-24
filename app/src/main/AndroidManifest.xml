@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lumbalumbadrt.colortoast">
+    package="com.lumbalumbadrt.colortoast.app">
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,7 @@
         <activity android:name=".toast.ToastErrorActivity" />
         <activity android:name=".toast.ToastWarningActivity" />
         <activity android:name=".toast.ToastInfoActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

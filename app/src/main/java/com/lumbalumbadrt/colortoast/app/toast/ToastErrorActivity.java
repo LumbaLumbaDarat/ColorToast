@@ -1,4 +1,4 @@
-package com.lumbalumbadrt.colortoast.toast;
+package com.lumbalumbadrt.colortoast.app.toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.lumbalumbadrt.colortoast.ColorToast;
-import com.lumbalumbadrt.colortoast.databinding.ActivityToastErrorBinding;
-import com.lumbalumbadrt.colortoast.R;
+import com.lumbalumbadrt.colortoast.app.databinding.ActivityToastErrorBinding;
+import com.lumbalumbadrt.colortoast.app.R;
 
 @SuppressLint("NonConstantResourceId")
 public class ToastErrorActivity extends AppCompatActivity {

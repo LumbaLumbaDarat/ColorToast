@@ -1,4 +1,4 @@
-package com.lumbalumbadrt.colortoast;
+package com.lumbalumbadrt.colortoast.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,13 +6,13 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
-import com.lumbalumbadrt.colortoast.databinding.ActivityMainBinding;
-import com.lumbalumbadrt.colortoast.toast.ToastErrorActivity;
-import com.lumbalumbadrt.colortoast.toast.ToastInfoActivity;
-import com.lumbalumbadrt.colortoast.toast.ToastSuccessActivity;
-import com.lumbalumbadrt.colortoast.toast.ToastWarningActivity;
+import com.lumbalumbadrt.colortoast.app.R;
+import com.lumbalumbadrt.colortoast.app.databinding.ActivityMainBinding;
+import com.lumbalumbadrt.colortoast.app.toast.ToastErrorActivity;
+import com.lumbalumbadrt.colortoast.app.toast.ToastInfoActivity;
+import com.lumbalumbadrt.colortoast.app.toast.ToastSuccessActivity;
+import com.lumbalumbadrt.colortoast.app.toast.ToastWarningActivity;
 
 @SuppressLint("NonConstantResourceId")
 public class MainActivity extends AppCompatActivity {
