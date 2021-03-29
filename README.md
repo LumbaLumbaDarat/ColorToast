@@ -57,11 +57,11 @@ ColorToast.blockLineInfo
 ```Java
 //Toast with default Title
 ColorToast.roundWarning(YourActivity.this, 
-"Hello World, I'm Toast Warning"), Toast.LENGTH_SHORT);  
+"Hello World, I'm Toast Warning", Toast.LENGTH_SHORT);  
 
 //Toast with Your Title
 ColorToast.roundWarning(YourActivity.this, 
-"Put Your Title in here", "Hello World, I'm Toast Warning"), Toast.LENGTH_SHORT);
+"Put Your Title in here", "Hello World, I'm Toast Warning", Toast.LENGTH_SHORT);
 
 //Other method, with same parameter, and have different Model Toast
 ColorToast.roundColorWarning
@@ -77,11 +77,11 @@ ColorToast.blockLineWarning
 ```Java
 //Toast with default Title
 ColorToast.roundError(YourActivity.this, 
-"Hello World, I'm Toast Error"), Toast.LENGTH_SHORT);  
+"Hello World, I'm Toast Error", Toast.LENGTH_SHORT);  
 
 //Toast with Your Title
 ColorToast.roundError(YourActivity.this, 
-"Put Your Title in here", "Hello World, I'm Toast Error"), Toast.LENGTH_SHORT);
+"Put Your Title in here", "Hello World, I'm Toast Error", Toast.LENGTH_SHORT);
 
 //Other method, with same parameter, and have different Model Toast
 ColorToast.roundColorError
@@ -97,11 +97,11 @@ ColorToast.blockLineError
 ```Java
 //Toast with default Title
 ColorToast.roundSuccess(YourActivity.this, 
-"Hello World, I'm Toast Success"), Toast.LENGTH_SHORT);  
+"Hello World, I'm Toast Success", Toast.LENGTH_SHORT);  
 
 //Toast with Your Title
 ColorToast.roundSuccess(YourActivity.this, 
-"Put Your Title in here", "Hello World, I'm Toast Success"), Toast.LENGTH_SHORT);
+"Put Your Title in here", "Hello World, I'm Toast Success", Toast.LENGTH_SHORT);
 
 //Other method, with same parameter, and have different Model Toast
 ColorToast.roundColorSuccess
