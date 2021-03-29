@@ -36,11 +36,11 @@ dependencies {
 ```Java
 //Toast with default Title
 ColorToast.roundInfo(YourActivity.this, 
-"Hello World, I'm Toast Info"), Toast.LENGTH_SHORT);
+"Hello World, I'm Toast Info", Toast.LENGTH_SHORT);
 
 //Toast with Your Title
 ColorToast.roundInfo(YourActivity.this, 
-"Put Your Title in here", "Hello World, I'm Toast Info"), Toast.LENGTH_SHORT);
+"Put Your Title in here", "Hello World, I'm Toast Info", Toast.LENGTH_SHORT);
 
 //Other method, with same parameter, and have different Model Toast
 ColorToast.roundColorInfo
